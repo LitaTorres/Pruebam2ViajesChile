@@ -4,8 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="logo" width="86" height="25">ViajesChile </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!-- ms para alinear el menu a la derecha -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--Carrusel-->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carru1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carru2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carru3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+    <!-- Sección quienes somos-->
+
+    <section class="fondo">
+        <h4 class="titulo">¿QUIÉNES SOMOS?</h4>
+        <div class="container card1 ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card1 mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolores corporis animi corrupti, excepturi culpa voluptas ipsam explicabo dicta asperiores alias veniam fugiat nam neque! Corrupti, possimus. Ipsum, sed maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nihil corrupti quod aspernatur a quidem ab, voluptate quis corporis iusto, necessitatibus, explicabo ex? Quae excepturi explicabo debitis magnam, molestias facilis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card1 mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo velit veritatis, iure neque nihil consequatur id temporibus, ex eum assumenda magni numquam error aspernatur, aliquam voluptatum animi! Nobis, ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis architecto distinctio beatae, cupiditate, ipsam soluta accusamus velit iusto illo nemo doloribus eaque numquam? Sequi dolores ea assumenda fugit, soluta veniam..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card1 mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ad odio aliquid quo omnis dignissimos, debitis, iure minima facere ut, ullam commodi sequi provident nobis amet? Dicta eum fugiat magnam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae pariatur eos, libero dolore eaque architecto numquam illum molestiae optio natus eum corporis similique illo culpa, aperiam ex, minima impedit ipsam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
