@@ -31,4 +31,42 @@
     text-align: left; 
     background-color: #000000 !important;
     color: #FFFFFF;
+   
+}
+
+.fondito {
+    background-color: rgb(3, 226, 246);
+    width: 100%;
+    text-align: center;
+}
+
+.texto1card {
+    margin-top: -30px;
+}
+
+.texto2card {
+    margin-bottom: -30px;
+}
+
+.card-body {
+    background-color: rgb(3, 226, 246) !important;
+    color: #FFFFFF;
+}
+
+
+/* Formulario */
+
+.form-label {
+    color:#FFFFFF;
+}
+
+.btn {
+    color:#FFFFFF !important;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(3, 226, 246);
+    height: 100px;
 }
