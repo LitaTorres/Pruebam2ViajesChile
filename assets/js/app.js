@@ -8,13 +8,13 @@ $(document).ready(function (){
         alert("El correo fue enviado correctamente");
     });
 
-    $(".card-title").click(function(){ /* selector en la etiqueta h4 se usa this para q se cambie solo de a 1*/
+    $(".card-title2").click(function(){ /* q se cambie solo de a 1*/
         $(this).css("color", "green");
     });
 
-    $(".card-title").click(function(){  /* selector por CLASE pagina 29 dia 2 java, si hago clic en los titulos*/
-    $(".card-text").toggle(); /* desaparecen los contenidos*/
-});
+    $(".card-title2").click(function(){  
+    $(".card-text2").toggle(); /* desaparecen los contenidos*/
+    });
 
 });
 

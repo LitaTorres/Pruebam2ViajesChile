@@ -1,22 +1,25 @@
 /* navbar y carrusel*/
 
 .navbar {
-    background-color: transparent;
+   background-color: transparent; /*background-color: transparent;*/
     position: relative;
     z-index: 2;
 }
 
 .viajes {
     color: #FFFFFF;
-
 }
 
 .nav-link {
-    color:#ffffff !important;
+    color:#ffffffa5 !important; /*color:#ffffffd0 !important;*/
 }
 
 #carouselExample {
-    margin-top: -70px;
+    margin-top: -80px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
 
 /* sección quienes somos */
@@ -28,7 +31,6 @@
 .titulo {
     text-align: center;
     color: white;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
@@ -78,19 +80,16 @@
 
 .footer {
     background-color: rgb(3, 226, 246);
-    height: 100px;
-    display: flex;
+    height: 120px;
     justify-content: center;
     align-items: center;
-    gap: 600px;
-    flex-direction: row !important;
+    text-align: center;
 }
 
 .titulofooter {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-
 }
 
 .iconos {
